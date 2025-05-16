@@ -9,8 +9,6 @@
     },
     "privileged": true,
     "runArgs": [
-        "-p 3000:3000",
-        "-p 5173:5173",
         "--gpus=all",
         "--device=/dev/dri"
     ],
