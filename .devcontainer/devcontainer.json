@@ -8,19 +8,6 @@
         }
     },
     "privileged": true,
-    "runArgs": [
-        "--gpus=all",
-        "--device=/dev/dri"
-    ],
     "containerEnv": {},
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "vscode.json-language-features",
-                "vscode.css-language-features",
-                "ms-python.python"
-            ]
-        }
-    },
     "features": {}
 }
